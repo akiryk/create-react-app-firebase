@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, Component} from 'react';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import * as ROUTES from '../../constants/routes'
 import Navigation from '../Navigation';
@@ -9,6 +9,7 @@ import PasswordForgetPage from '../PasswordForget';
 import HomePage from '../Home';
 import AccountPage from '../Account';
 import AdminPage from '../Admin';
+import { withAuthentication } from '../Session';
 
 const App = () => (
   <Router>
@@ -25,4 +26,4 @@ const App = () => (
   </Router>
 );
 
-export default App;
+export default withAuthentication(App);
