@@ -1,5 +1,15 @@
 # Create React App and Firebase
 
+## Intro
+* [See github repo](https://github.com/akiryk/create-react-app-firebase)
+
+## Get started
+1. `git clone https://github.com/akiryk/create-react-app-firebase.git`
+2. `cd create-react-app-firebase`
+3. Get Firebase credentials (Firebase console > Authentication > click the "Web setup" button)
+4. run `yarn` in console
+5. run `yarn start`
+
 ## Resources
 * https://www.robinwieruch.de/complete-firebase-authentication-react-tutorial/
 
